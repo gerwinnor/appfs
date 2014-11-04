@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import struct 
 
-data = open('ndata.dat','r')
+data = open('ndata.dat','rb')
 
 a = []
 byte = data.read(4)
